@@ -11,10 +11,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./scss/main.css">
     <title>create your plan</title>
 </head>
 <body>
+    <div class="modal">
+        <div class="modal__card">
+            <div class="modal__header">
+                <h4 class="modal__title">Order Summary</h4>
+            </div>
+            <div class="modal__body">
+                <p class="modal__pr">“I drink my coffee as Filter, with a Decaf
+                 type of bean. 250g ground ala Cafetiére, sent to me Every Week.”
+                </p>
+                <p class="modal__text">Is this correct? You can proceed to checkout or go back to plan 
+                 selection if something is off. Subscription discount codes can also be redeemed at the checkout.
+                </p>
+                <button class="modal__btn btn">Checkout</button>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <header class="header">
             <nav class="navbar">
@@ -23,6 +39,7 @@
                     <li class="header__item"> <a class="header__list" href="../day-1/index.html">HOME</a></li>
                     <li class="header__item"> <a class="header__list" href="../day-2/index.html">ABOUT US</a></li>
                     <li class="header__item">CREATE YOUR PLAN</li>
+                    <li><button>check</button></li>
                 </ul>
             </nav>
         </header>
@@ -141,7 +158,7 @@
                         <h3 class="bottom__title">Order Summary</h3>
                         <img src="./images/bottom.png" alt="text">
                     </div>
-                    <a class="middle__btn" href="#">Create my plan!</a>
+                    <button class="middle__btn">Create my plan!</button>
                 </div>
             </section>
         </main>

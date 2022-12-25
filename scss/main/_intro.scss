@@ -1,0 +1,22 @@
+.intro{
+    margin-top: 30px;
+    padding: 137px 85px ;
+    background-image: url(/day-3/images/Bitmap\(4\).jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color:$color3;
+    &__title{
+        width: 493px;
+        margin: 0;
+        @extend %font;
+        @include text(72px, 72px);
+    }
+    &__text{
+        width: 405px;
+        padding-top: 24px;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        @extend %font2;
+        @include text(16px, 26px);
+    }
+}

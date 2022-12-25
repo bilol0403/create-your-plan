@@ -1,0 +1,78 @@
+.middle{
+    @include display(flex, none, none);
+    &__left{
+        padding-left: 84px;
+        width: 30%;
+    }
+    &__right{
+        width: 70%;
+        padding-left: 86px;
+    }
+    &__title{
+        @extend %font;
+        @include text(40px, 48px);
+        color:$color;
+    }
+    &__card{
+        padding-top: 56px;
+        padding-bottom: 84px;
+        gap: 23px;
+        @include display(flex, space-between, center);
+        color:$color2;
+    }
+    &__btn{
+        margin-left: 555px;
+    }
+}
+.card{
+    &__item{
+        padding: 32px 28px 84px;
+        background: #F4F1EB;
+        border-radius: 8px;
+        &:nth-child(2){
+            color:#fff;
+            background:$btn-color; 
+        }
+    }
+    &__title{
+        @extend %font;
+        @include text(24px, 32px);
+    }
+    &__text{
+        padding-top: 24px;
+        @extend %font2;
+        @include text(16px, 26px);
+    }
+    &__div{
+        padding: 32px 28px 84px;
+        background: #F4F1EB;
+        border-radius: 8px;
+        &:nth-child(1){
+            color:#fff;
+            background:$btn-color; 
+        }
+    }
+    &__li{
+        padding: 32px 28px 84px;
+        background: #F4F1EB;
+        border-radius: 8px;
+        &:nth-child(3){
+            color:#fff;
+            background: $btn-color;
+        }
+    }
+}
+.right__bottom{
+    padding: 31px 64px 18px;
+    margin-bottom: 50px;
+    background-color:$color2;
+}
+.bottom__title{
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    @extend %font2;
+    @include text(16px, 26px);
+}

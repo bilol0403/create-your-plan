@@ -1,0 +1,27 @@
+.footer{
+    margin-top: 168px;
+    padding: 40px 47px;
+    color:#fff;
+    background-color: #2C343E;
+    @include display(flex, space-between, none);
+    &__left{
+        vertical-align: middle;
+        gap:70px;
+        @include display(flex, space-between, center);
+    }
+    &__list{
+        gap:10px;
+        @include display(flex, none, center)
+    }
+    &__item{
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        @include font2;
+        @include text(12px, 15px);
+        color:$color;
+    }
+    &__right{
+        gap:25px;
+        @include display(flex, none, none);
+    }
+}

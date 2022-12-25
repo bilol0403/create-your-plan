@@ -1,0 +1,257 @@
+.card__title, .middle__title, .work__main, .intro__title, button {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+}
+
+.footer__item, .bottom__title, .card__text, .work__text, .intro__text, .header__list {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: #FEFCF7;
+}
+
+button {
+  padding: 15px 35px;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  border: 0;
+  color: #fff;
+  background: #0E8784;
+  border-radius: 6px;
+}
+button:active {
+  background-color: #66D2CF;
+}
+
+.navbar {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  gap: 33px;
+  text-decoration: none;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  font-weight: 700px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+}
+
+.intro {
+  margin-top: 30px;
+  padding: 137px 85px;
+  background-image: url(/day-3/images/Bitmap\(4\).jpg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #FEFCF7;
+}
+.intro__title {
+  width: 493px;
+  margin: 0;
+  font-size: 72px;
+  line-height: 72px;
+}
+.intro__text {
+  width: 405px;
+  padding-top: 24px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.work {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 40px 84px 20px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #333D4B;
+}
+.work__top {
+  margin-top: 80px;
+  margin-bottom: 57px;
+  background-color: transparent;
+  display: flex;
+  justify-content: none;
+  align-items: center;
+}
+.work__hr {
+  width: 349px;
+  height: 2px;
+  border: 0;
+  background-color: #FDD6BA;
+}
+.work__list {
+  margin-bottom: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+}
+.work__main {
+  width: 200px;
+  padding-top: 38px;
+  padding-bottom: 42px;
+  color: #fff;
+  font-size: 32px;
+  line-height: 36px;
+}
+.work__text {
+  width: 285px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.middle {
+  display: flex;
+  justify-content: none;
+  align-items: none;
+}
+.middle__left {
+  padding-left: 84px;
+  width: 30%;
+}
+.middle__right {
+  width: 70%;
+  padding-left: 86px;
+}
+.middle__title {
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+.middle__card {
+  padding-top: 56px;
+  padding-bottom: 84px;
+  gap: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333D4B;
+}
+.middle__btn {
+  margin-left: 555px;
+}
+
+.card__item {
+  padding: 32px 28px 84px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+.card__item:nth-child(2) {
+  color: #fff;
+  background: #0E8784;
+}
+.card__title {
+  font-size: 24px;
+  line-height: 32px;
+}
+.card__text {
+  padding-top: 24px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.card__div {
+  padding: 32px 28px 84px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+.card__div:nth-child(1) {
+  color: #fff;
+  background: #0E8784;
+}
+.card__li {
+  padding: 32px 28px 84px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+.card__li:nth-child(3) {
+  color: #fff;
+  background: #0E8784;
+}
+
+.right__bottom {
+  padding: 31px 64px 18px;
+  margin-bottom: 50px;
+  background-color: #333D4B;
+}
+
+.bottom__title {
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.footer {
+  margin-top: 168px;
+  padding: 40px 47px;
+  color: #fff;
+  background-color: #2C343E;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+}
+.footer__left {
+  vertical-align: middle;
+  gap: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__list {
+  gap: 10px;
+  display: flex;
+  justify-content: none;
+  align-items: center;
+}
+.footer__item {
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  font-weight: 700px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+}
+.footer__right {
+  gap: 25px;
+  display: flex;
+  justify-content: none;
+  align-items: none;
+}/*# sourceMappingURL=main.css.map */

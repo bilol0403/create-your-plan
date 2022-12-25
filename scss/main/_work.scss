@@ -1,0 +1,38 @@
+.work{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px 84px 20px;
+    color:#fff;
+    border-radius: 10px;
+    background-color: $color2;
+    &__top{
+        margin-top: 80px;
+        margin-bottom: 57px;
+        background-color:transparent;
+        @include display(flex, none, center);
+    }
+    &__hr{
+        width: 349px;
+        height: 2px;
+        border: 0;
+        background-color: #FDD6BA;
+    }
+    &__list{
+        margin-bottom: 68px;
+        @include display(flex, space-between, none);
+    }
+    &__main{
+        width: 200px;
+        padding-top: 38px;
+        padding-bottom: 42px;
+        color: #fff;
+        @extend %font;
+        @include text(32px, 36px);
+    }
+    &__text{
+        width: 285px;
+        color: #fff;
+        @extend %font2;
+        @include text(16px, 26px);
+    }
+}
